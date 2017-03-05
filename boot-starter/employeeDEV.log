@@ -1,0 +1,34 @@
+2017-03-05 18:44:57.488  INFO 5032 --- [main] c.m.starter.BootStarterApplication       : Starting BootStarterApplication on ANTO-PC with PID 5032 (D:\Workspace\boot\boot-starter\target\classes started by ANTO in D:\Workspace\boot\boot-starter)
+2017-03-05 18:44:57.496  INFO 5032 --- [main] c.m.starter.BootStarterApplication       : The following profiles are active: dev
+2017-03-05 18:44:57.889  INFO 5032 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@34f934: startup date [Sun Mar 05 18:44:57 IST 2017]; root of context hierarchy
+2017-03-05 18:45:00.778  INFO 5032 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3802b7a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-05 18:45:01.539  INFO 5032 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9091 (http)
+2017-03-05 18:45:01.579  INFO 5032 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-05 18:45:01.582  INFO 5032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-05 18:45:02.325  INFO 5032 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-03-05 18:45:02.340  INFO 5032 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/employeeAppDEV]          : Initializing Spring embedded WebApplicationContext
+2017-03-05 18:45:02.341  INFO 5032 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4456 ms
+2017-03-05 18:45:02.869  INFO 5032 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-05 18:45:02.885  INFO 5032 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-05 18:45:02.886  INFO 5032 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-05 18:45:02.886  INFO 5032 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-05 18:45:02.887  INFO 5032 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-05 18:45:04.656  INFO 5032 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@34f934: startup date [Sun Mar 05 18:44:57 IST 2017]; root of context hierarchy
+2017-03-05 18:45:04.902  INFO 5032 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllEmployee],methods=[POST]}" onto public java.util.List<com.madlabs.starter.modal.Employee> com.madlabs.starter.web.controller.EmployeeRestControler.getAllEmployee()
+2017-03-05 18:45:04.905  INFO 5032 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home],methods=[GET],produces=[text/html]}" onto public java.lang.String com.madlabs.starter.web.controller.EmployeeWebController.displayGetEmployeeDetail(org.springframework.ui.Model)
+2017-03-05 18:45:04.912  INFO 5032 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-05 18:45:04.913  INFO 5032 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-05 18:45:05.030  INFO 5032 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-05 18:45:05.030  INFO 5032 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-05 18:45:05.173  INFO 5032 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-05 18:45:05.950  INFO 5032 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-05 18:45:06.238  INFO 5032 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9091 (http)
+2017-03-05 18:45:06.263  INFO 5032 --- [main] c.m.starter.BootStarterApplication       : Started BootStarterApplication in 9.996 seconds (JVM running for 11.801)
+2017-03-05 18:45:35.819  INFO 5032 --- [http-nio-9091-exec-3] o.a.c.c.C.[.[.[/employeeAppDEV]          : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-05 18:45:35.819  INFO 5032 --- [http-nio-9091-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-05 18:45:35.875  INFO 5032 --- [http-nio-9091-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 54 ms
+2017-03-05 18:45:36.008  INFO 5032 --- [http-nio-9091-exec-3] c.m.s.w.c.EmployeeRestControler          : profile INFO
+2017-03-05 18:45:36.010  WARN 5032 --- [http-nio-9091-exec-3] c.m.s.w.c.EmployeeRestControler          : profile warn
+2017-03-05 18:45:43.051  INFO 5032 --- [RMI TCP Connection(5)-192.168.0.101] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-03-05 18:45:43.052  INFO 5032 --- [RMI TCP Connection(5)-192.168.0.101] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@34f934: startup date [Sun Mar 05 18:44:57 IST 2017]; root of context hierarchy
+2017-03-05 18:45:43.056  INFO 5032 --- [RMI TCP Connection(5)-192.168.0.101] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
